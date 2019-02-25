@@ -14,3 +14,5 @@ person.greet();
 let sally = { name: 'Sally' };
 
 greet.call(sally);
+
+greet.apply(sally);
