@@ -13,6 +13,6 @@ person.greet();
 
 let sally = { name: 'Sally' };
 
-greet.call(sally);
+greet.call(sally, 'Terry', 'George');
 
 greet.apply(sally);
