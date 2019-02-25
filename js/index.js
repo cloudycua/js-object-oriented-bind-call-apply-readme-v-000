@@ -5,8 +5,7 @@ function greet() {
 greet();
 
 let person = {
-  name: 'Bob',
-  greet: greet
+  name: 'Bob'
 };
 
 person.greet();
