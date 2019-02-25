@@ -10,3 +10,5 @@ let person = {
 };
 
 person.greet();
+
+let sally = { name: 'Sally' };
