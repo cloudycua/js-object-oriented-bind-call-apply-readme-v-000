@@ -3,3 +3,10 @@ function greet() {
 }
 
 greet();
+
+let person = {
+  name: 'Bob', 
+  greet: greet
+};
+
+person.greet();
