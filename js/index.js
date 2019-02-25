@@ -1,5 +1,5 @@
 function greet() {
-  console.log(`my name is ${this.name}, hi!`)
+  console.log(`Hi ${customerOne} and ${customerTwo}, my name is ${this.name}, hi!`)
 }
 
 greet();
