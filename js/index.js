@@ -16,3 +16,5 @@ let sally = { name: 'Sally' };
 greet.call(sally, 'Terry', 'George');
 
 greet.apply(sally, ['Terry', 'George']);
+
+let newGreet = greet.bind(sally);
