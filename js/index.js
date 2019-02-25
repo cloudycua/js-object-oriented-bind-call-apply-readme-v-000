@@ -22,3 +22,5 @@ let newGreet = greet.bind(sally);
 newGreet('Bob');
 
 greet('Bob');
+
+greet.bind(sally)('Bob');
