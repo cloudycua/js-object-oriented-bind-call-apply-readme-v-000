@@ -4,6 +4,11 @@ function greet(customerOne, customerTwo) {
 
 greet();
 
+let person = {
+  name: 'Bob',
+  greet: greet
+};
+
 person.greet();
 
 let sally = { name: 'Sally' };
