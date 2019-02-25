@@ -15,4 +15,4 @@ let sally = { name: 'Sally' };
 
 greet.call(sally, 'Terry', 'George');
 
-greet.apply(sally);
+greet.apply(sally, 'Terry', 'George');
