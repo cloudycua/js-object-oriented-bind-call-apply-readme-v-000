@@ -11,6 +11,7 @@ let person = {
 };
 
 person.greet();
+// Hi undefined and undefined, my name is Bob, hi!
 
 let sally = { name: 'Sally' };
 
