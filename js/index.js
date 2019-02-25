@@ -16,13 +16,18 @@ person.greet();
 let sally = { name: 'Sally' };
 
 greet.call(sally, 'Terry', 'George');
+// Hi Terry and George, my name is Sally, hi!
 
 greet.apply(sally, ['Terry', 'George']);
+// Hi Terry and George, my name is Sally, hi!
 
 let newGreet = greet.bind(sally);
 
 newGreet('Bob');
+// Hi Bob and undefined, my name is Sally, hi!
 
 greet('Bob');
+// Hi Bob and undefined, my name is , hi!
 
 greet.bind(sally)('Bob');
+// Hi Bob and undefined, my name is Sally, hi!
