@@ -3,6 +3,7 @@ function greet(customerOne, customerTwo) {
 }
 
 greet();
+// Hi undefined and undefined, my name is , hi!
 
 let person = {
   name: 'Bob',
