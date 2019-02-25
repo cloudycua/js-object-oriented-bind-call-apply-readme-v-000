@@ -38,3 +38,10 @@ class Event {
     this.keywords = keywords;
   }
 }
+
+class User {
+  constructor(name, interests) {
+    this.name = name;
+    this.interests = interests;
+  }
+}
