@@ -50,7 +50,6 @@ class User {
       function(word) {
         return this.interests.includes(word);
       }.bind(this)    // added to the end of the callback function
-      }
-    )
+    );
   }
 }
