@@ -52,6 +52,11 @@ class User {
       }.bind(this)    // added to the end of the callback function, keeps this referring to User context
     );
   }
+
+  // could replace with
+  // matchInterests(event) {
+  //    return event.keywords.some(word => this.interests.includes(word));
+  // }
 }
 
 let billy = new User('billy', ['music', 'art', 'movies']);
