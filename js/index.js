@@ -31,3 +31,10 @@ greet('Bob');
 
 greet.bind(sally)('Bob');
 // Hi Bob and undefined, my name is Sally, hi!
+
+class Event {
+  constructor(title, keywords) {
+    this.title = title;
+    this.keywords = keywords;
+  }
+}
